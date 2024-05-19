@@ -1,4 +1,7 @@
 site_name: Python for Data Analysis Data Wrangling with pandas, NumPy & Jupyter
+repo_url: https://github.com/on3moy/Python-For-Data-Analysis-Lecture-Notes
+repo_name: 'GitHub'
+
 theme:
   name: 'material'
   features:
@@ -51,3 +54,5 @@ plugins:
 
 extra_css:
   - 'stylesheets/extra.css'
+
+copyright: Copyright &copy; 2024 Moy Patel
