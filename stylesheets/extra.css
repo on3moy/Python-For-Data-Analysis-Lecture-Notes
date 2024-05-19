@@ -1,0 +1,140 @@
+/* stylesheets/extra.css */
+
+/* Customize the overall background to be darker */
+body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+/* Customize the code block to match Visual Studio dark theme */
+pre code {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Consolas', monospace;
+}
+
+/* Customize headers and other elements */
+h1, h2, h3, h4, h5, h6 {
+  color: #569cd6;
+}
+
+a {
+  color: #3794ff;
+}
+
+/* Customize table */
+table {
+  background-color: #252526;
+  color: #d4d4d4;
+}
+
+th {
+  background-color: #3c3c3c;
+  color: #d4d4d4;
+}
+
+td {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+/* Customize blockquotes */
+blockquote {
+  background-color: #2d2d2d;
+  border-left: 5px solid #3794ff;
+  color: #d4d4d4;
+}
+
+/* Customize inline code */
+code {
+  background-color: #2d2d2d;
+  color: #dcdcdc;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: 'Consolas', monospace;
+}
+
+/* Customize navigation sidebar */
+.md-sidebar--primary {
+  background-color: #1e1e1e;
+}
+
+.md-nav__link {
+  color: #d4d4d4;
+}
+
+.md-nav__link--active {
+  color: #ffffff;
+  background-color: #3a3d41;
+}
+
+/* Customize search bar */
+.md-search__input {
+  background-color: #3e3e42;
+  color: #d4d4d4;
+}
+
+/* Customize code highlighting */
+code[class*="language-"],
+pre[class*="language-"] {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a9955;
+}
+
+.token.punctuation {
+  color: #d4d4d4;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #d16969;
+}
+
+.token.boolean,
+.token.number {
+  color: #b5cea8;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #ce9178;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #d4d4d4;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #569cd6;
+}
+
+.token.function,
+.token.class-name {
+  color: #dcdcaa;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #d16969;
+}
