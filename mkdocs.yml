@@ -23,8 +23,8 @@ theme:
 
 nav:
   - Home: index.md
-  # - Lectures:
-  #     - Lecture 1: lecture1.md
+  - Lectures:
+      - Lecture 1: page2.md
   #     - Lecture 2: lecture2.md
   # - page2: page2.md
 
