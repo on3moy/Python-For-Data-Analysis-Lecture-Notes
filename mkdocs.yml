@@ -3,6 +3,7 @@ repo_url: https://github.com/on3moy/Python-For-Data-Analysis-Lecture-Notes
 repo_name: 'GitHub'
 
 theme:
+  logo: img/Brackets.ico
   name: 'material'
   features:
     - navigation.tabs
@@ -18,13 +19,16 @@ theme:
     primary: 'black'
     accent: 'light blue'
   font:
-    text: 'Segoe UI'
+    text: 'calibri'
     code: 'Consolas'
 
 nav:
   - Home: index.md
   - Lectures:
-      - Lecture 1: page2.md
+      - Chatper 1 Preliminaries: book/CH1/Preliminaries.md
+      - Notebooks: book/Notebooks/
+  - Python Crash Course: book/Notebooks/01-Python Crash Course.ipynb
+
   #     - Lecture 2: lecture2.md
   # - page2: page2.md
 
@@ -44,15 +48,23 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+  - pymdownx.tasklist
+  - pymdownx.magiclink
+  - pymdownx.caret
+  - pymdownx.tilde
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - md_in_html
 
 plugins:
   - search
+  - mknotebooks
 
 extra_css:
   - 'stylesheets/extra.css'
+  - 'css/notebook_custom.css'
 
 copyright: Copyright &copy; 2024 Moy Patel
