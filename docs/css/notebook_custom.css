@@ -1,0 +1,83 @@
+/* notebook_custom.css */
+.output_area {
+    background-color: #1e1e1e; /* Dark background */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside the output area */
+    margin-top: 1px; /* Space above the output area */
+    color: #c5c5c5; /* Light text color */
+}
+
+.output_area pre {
+    color: #d4d4d4; /* Light text color for preformatted text */
+    background-color: #2d2d2d; /* Darker background for preformatted text */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.output_area .rendered_html {
+    font-size: 14px; /* Font size for rendered HTML */
+    line-height: 1.6; /* Line height for better readability */
+    color: #c5c5c5; /* Light text color for rendered HTML */
+}
+
+.output_area img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Center images with some margin */
+    border: 1px solid #333; /* Border around images to match the dark theme */
+}
+
+.output_area .output_prompt {
+    color: #757575; /* Darker text color for output prompts */
+}
+
+.output_area .output_subarea {
+    background-color: #2d2d2d; /* Darker background for subareas */
+    padding: 1px;
+    border-radius: 4px;
+}
+
+.output_area .output_text {
+    color: #d4d4d4; /* Light text color for text output */
+}
+
+.output_area .output_text pre {
+    background-color: #2d2d2d; /* Darker background for text output */
+    color: #d4d4d4; /* Light text color for text output */
+    padding: 1px;
+    border-radius: 4px;
+}
+
+.output_area .output_stdout,
+.output_area .output_stderr {
+    background-color: #2d2d2d; /* Darker background for stdout and stderr */
+    color: #d4d4d4; /* Light text color for stdout and stderr */
+    padding: 1px;
+    border-radius: 1px;
+}
+
+.output_area .output_stderr {
+    border-left: 1px solid #e74c3c; /* Red border for stderr */
+}
+
+.output_area .output_latex {
+    background-color: #2d2d2d; /* Darker background for LaTeX output */
+    color: #d4d4d4; /* Light text color for LaTeX output */
+    padding: 1px;
+    border-radius: 4px;
+}
+
+.output_area .output_html {
+    background-color: #2d2d2d; /* Darker background for HTML output */
+    color: #d4d4d4; /* Light text color for HTML output */
+    padding: 1px;
+    border-radius: 4px;
+}
+
+.output_area .output_markdown {
+    background-color: #2d2d2d; /* Darker background for Markdown output */
+    color: #d4d4d4; /* Light text color for Markdown output */
+    padding: 1px;
+    border-radius: 1px;
+}
